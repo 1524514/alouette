@@ -83,4 +83,14 @@ class Alouette {
 	 */
 
 
+
+
+ 
+	static public function actionMembres(){
+	  
+		$resultat = ''; 
+         $resultat.='<div class="appel">Je te plumerai la tête</div>';
+         $resultat.='<div class="reponse">Je te plumerai la tête</div>';
+       return $resultat;
+	}
 }
